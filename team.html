@@ -2,45 +2,74 @@
 <html>
     <head>
         <title>Our team</title>
+        <style>.about-button{background: #124481;
+
+        }
+        .contact-member{
+            background: white;
+            color: gray;
+        }
+        .main_heading{
+            text-align: center;
+        }
+        .main_heading p{
+            color: brown; font-weight: 400 ;
+        }
+            .member-container{
+                text-align: center;
+            }
+            .member-container h3{
+                font-weight: 400;
+            }
+            .member_title{
+                color: grey;
+                font-size: 14px;
+
+            }
+        </style>
     </head>
 
     <body>
       <section>
-        <div>
-            <h1 style="color: gray;">Meet the team</h1>
-            <p style="color: brown; font-weight: 400 ;">Meet our team to serve you</p>
-        </div>
-
-        <div>
-            <button type="Go to about us page" style="background: #2626b2;">About Us</button> 
-            <button type="Go to contact us page" style="background: white; color: bisque;">Contact</button> 
-        </div><br><br>
-        <div>
+        <div  class="main_heading">
+            <div class="member-container">
+                <h1 style="color: gray;">Meet the team</h1>
+                <p>Meet our team to serve you</p>
+            </div>
+    
             <div>
-                <img src="female-memberl.jpg" height="300" width="300" alt="annette-black">
-                <p>Dog Trainer</p>
+                <button class="about-button" type="Go to about us page" >About Us</button> 
+                <button class="contact-member" type="Go to contact us page">Contact</button> 
+            </div><br><br>
+        </div>
+        
+        <div>
+            <div class="member-container">
+                <img src="female-memberl.jpg" height="250" width="250" alt="annette-black">
+                <p class="member_title">Dog Trainer</p>
                 <h3>Annette Black</h3>
                 <p>&spades;</p>
             </div>
 
-            <div>
-                <img src="male-member.jpg" height="300" width="300" alt="">
+            <div class="member-container">
+                <img src="male-member.jpg" height="250" width="250" alt="">
                 <p>Medical assistance</p>
                 <h3>Wade Warren</h3>
                 <p>&clubs;</p>
             </div>
-            <img src="female-memberl.jpg" height="300" width="300" alt="annette-black">
-            <p>President of Sales</p>
-            <h3>Savannah Ngyne</h3>
-            <p>&hearts;;</p>
-            <div>
-                <img src="" alt="">
+            
+            <div class="member-container">
+                <img src="female-memberl.jpg" height="250" width="250" alt="annette-black">
+                <p>President of Sales</p>
+                <h3>Savannah Ngyne</h3>
+                <p>&hearts;;</p>
             </div>
-            <div>
-                <img src="male-member.jpg" height="300" width="300" alt="">
+
+            <div class="member-container">
+                <img src="male-member.jpg" height="250" width="250" alt="">
                 <p>Nursing Assistant</p>
                 <h3>Jenny Wilson</h3>
-                <p>&emsp;&diams;;</p>
+                <p>;&diams;;</p>
             </div>
         </div>
       </section>  
